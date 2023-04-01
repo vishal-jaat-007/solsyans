@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700&family=Sen:wght@400;700&display=swap');
+
+.ff_poppins {
+    font-family: 'Poppins';
+}
+
+/* root */
+:root {
+    /* font_size */
+    --fs-72: 72px;
+    --fs-19: 19px;
+    --fs-48: 48px;
+    --fs-36: 36px;
+    --fs-24: 24px;
+    --fs-18: 18px;
+
+
+
+    /* color */
+    --color-red: #EC0010;
+    --color-white: #FFFFFF;
+}
+
+/* color */
+
+.red {
+    color: var(--color-red);
+}
+
+.white {
+    color: var(--color-white);
+}
+
+/* font_size */
+.fs_72 {
+    font-size: var(--fs-72);
+}
+
+.fs_48 {
+    font-size: var(--fs-48);
+}
+
+.fs_36 {
+    font-size: var(--fs-36);
+}
+
+.fs_24 {
+    font-size: var(--fs-24);
+}
+
+.fs_18 {
+    font-size: var(--fs-18);
+}
+
+
+/* font-weight */
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+@media (max-width:1400px) {
+    :root {
+        /* font_size */
+        --fs-72: 62px;
+        --fs-19: 19px;
+        --fs-48: 48px;
+        --fs-36: 36px;
+        --fs-24: 24px;
+        --fs-18: 18px;
+    }
+}
+
+@media (max-width:1200px) {
+    :root {
+        /* font_size */
+        --fs-72: 40px;
+        --fs-19: 18px;
+        --fs-48: 40px;
+        --fs-36: 17px;
+        --fs-24: 20px;
+        --fs-18: 12px;
+    }
+}
+
+@media (max-width:992px) {
+    :root {
+        /* font_size */
+        --fs-72: 38px;
+        --fs-19: 17px;
+        --fs-48: 38px;
+        --fs-36: 18px;
+        --fs-24: 24px;
+        --fs-18: 12px;
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        /* font_size */
+        --fs-72: 21px;
+        --fs-19: 19px;
+        --fs-48: 28px;
+        --fs-36: 15px;
+        --fs-24: 14px;
+        --fs-18: 12px;
+    }
+}
